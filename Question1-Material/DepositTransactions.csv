@@ -1,0 +1,40 @@
+﻿CalendarDate,CustomerEmail,CustomerBrandName,CustomerCountry,CustomerAccountStatus,PaymentMethodName,PaymentMethodType,PaymentStatusName,PaymentStatusDescription,amount_eur
+20210102,betsson3@testbetssongroup.om,BrandABC,Denmark,Closed,Method3,TypeB,Failed,payment has failed,95.2215573
+20210105,betsson7@testbetssongroup.om,BrandABC,Sweden,Closed,Method3,TypeB,Completed,payment has been completed successfully,99.9542194
+20210101,betsson6@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,99.3935206
+20210102,betsson3@testbetssongroup.om,BrandABC,Denmark,Closed,Method3,TypeB,Completed,payment has been completed successfully,98.55062404
+20210105,betsson3@testbetssongroup.om,BrandABC,Denmark,Closed,Method3,TypeB,Completed,payment has been completed successfully,96.54250411
+20210104,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Completed,payment has been completed successfully,93.26584767
+20210102,betsson4@testbetssongroup.om,BrandDEF,Denmark,Active,Method3,TypeB,Completed,payment has been completed successfully,88.7989281
+20210102,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Completed,payment has been completed successfully,84.17993306
+20210102,betsson6@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,81.09691748
+20210104,betsson6@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,80.42269358
+20210105,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Completed,payment has been completed successfully,78.70903933
+20210104,betsson3@testbetssongroup.om,BrandABC,Denmark,Closed,Method3,TypeB,Completed,payment has been completed successfully,78.52327779
+20210104,betsson5@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,77.13173647
+20210106,betsson6@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,69.53069077
+20210105,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Pending,payment is pending approval,92.77897687
+20210101,betsson2@testbetssongroup.om,BrandDEF,Sweden,Active,Method3,TypeB,Completed,payment has been completed successfully,64.9082911
+20210103,betsson4@testbetssongroup.om,BrandDEF,Denmark,Active,Method3,TypeB,Completed,payment has been completed successfully,63.6707995
+20210102,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Pending,payment is pending approval,89.28675536
+20210103,betsson2@testbetssongroup.om,BrandDEF,Sweden,Active,Method3,TypeB,Completed,payment has been completed successfully,59.62754876
+20210101,betsson2@testbetssongroup.om,BrandDEF,Sweden,Active,Method3,TypeB,Completed,payment has been completed successfully,59.48802928
+20210104,betsson4@testbetssongroup.om,BrandDEF,Denmark,Active,Method3,TypeB,Completed,payment has been completed successfully,57.37436549
+20210101,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Completed,payment has been completed successfully,54.57414268
+20210103,betsson6@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,53.71345514
+20210103,betsson4@testbetssongroup.om,BrandDEF,Denmark,Active,Method3,TypeB,Completed,payment has been completed successfully,34.37740835
+20210105,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Completed,payment has been completed successfully,30.89889473
+20210101,betsson8@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Completed,payment has been completed successfully,29.28282691
+20210101,betsson2@testbetssongroup.om,BrandDEF,Sweden,Active,Method3,TypeB,Failed,payment has failed,69.04307125
+20210103,betsson5@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,29.15140065
+20210102,betsson5@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,27.74279061
+20210104,betsson5@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Completed,payment has been completed successfully,24.0275434
+20210106,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Pending,payment is pending approval,48.16470396
+20210106,betsson@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Completed,payment has been completed successfully,15.46650122
+20210102,betsson3@testbetssongroup.om,BrandABC,Denmark,Closed,Method3,TypeB,Failed,payment has failed,30.76463862
+20210105,betsson2@testbetssongroup.om,BrandDEF,Sweden,Active,Method3,TypeB,Failed,payment has failed,30.00057763
+20210102,betsson5@testbetssongroup.om,BrandGHI,Switzerland,Active,Method3,TypeB,Failed,payment has failed,85.76720982
+20210105,betsson8@testbetssongroup.om,BrandABC,Italy,Active,Method3,TypeB,Pending,payment is pending approval,13.34610936
+20210106,betsson7@testbetssongroup.om,BrandABC,Sweden,Closed,Method3,TypeB,Completed,payment has been completed successfully,7.624138225
+20210101,betsson2@testbetssongroup.om,BrandDEF,Sweden,Active,Method3,TypeB,Failed,payment has failed,38.50550619
+20210104,betsson3@testbetssongroup.om,BrandABC,Denmark,Closed,Method3,TypeB,Failed,payment has failed,53.54578961

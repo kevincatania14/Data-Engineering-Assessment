@@ -1,0 +1,101 @@
+﻿CalendarDate,CustomerEmail,CustomerBrand,CustomerCountry,CustomerStatus,ProviderName,ProviderProductName,DeviceName,rounds,turnover_EUR,gameWin_EUR,bonus cost,totalAccountingRevenue_EUR
+20210101,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Mobile,1,44.81293393,1.568452688,-3.456609068,-1.88815638
+20210102,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCgamesofchance,,Web,2,84.60783125,-42.30391562,-3.994042378,-46.297958
+20210103,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCpoker,Poker,Mobile,3,81.78840891,2.862594312,-0.465174678,2.397419634
+20210104,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCgamesofchance,Games of Chance,Web,4,13.24402511,0.463540879,-1.496112119,-1.03257124
+20210105,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Mobile,5,13.24117143,-6.620585716,,-6.620585716
+20210106,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCpoker,Poker,Mobile,6,91.98127307,3.219344557,-19.76028316,-16.5409386
+20210101,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,ABCgamesofchance,Games of Chance,Web,7,47.70583072,1.669704075,-9.572601278,-7.902897203
+20210102,betsson8@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Mobile,8,33.17263837,1.161042343,-4.456937314,-3.295894971
+20210103,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Web,9,76.33347832,2.671671741,-14.68858051,-12.01690877
+20210104,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCsportsbook,Sportsbook,Mobile,10,84.97695632,-42.48847816,-12.81460273,-55.30308089
+20210105,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,DEFgamesofchance,Games of Chance,Mobile,11,48.24151079,1.688452878,-16.47024982,-14.78179694
+20210106,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCsportsbook,Sportsbook,Web,12,25.28049322,-12.64024661,,-12.64024661
+20210101,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,DEFgamesofchance,Games of Chance,Mobile,13,38.60294206,-19.30147103,-3.263310642,-22.56478167
+20210102,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCpoker,Poker,Web,14,70.52897896,2.468514264,-14.01730904,-11.54879478
+20210103,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Mobile,15,57.66271168,2.018194909,-16.58215768,-14.56396277
+20210104,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCpoker,Poker,Web,16,30.38851145,1.063597901,-1.468310026,-0.404712125
+20210105,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Mobile,17,37.64434035,1.317551912,,1.317551912
+20210106,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCsportsbook,Sportsbook,Web,1,65.39556651,-32.69778326,-8.372667035,-41.07045029
+20210101,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Mobile,2,77.72164285,2.7202575,-12.52765829,-9.807400787
+20210102,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCgamesofchance,Games of Chance,Mobile,3,14.36728943,0.50285513,-18.44091964,-17.93806451
+20210103,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCsportsbook,Sportsbook,Mobile,4,54.36996395,1.902948738,-14.81849348,-12.91554475
+20210104,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCpoker,Poker,Mobile,5,84.8186324,2.968652134,-13.60271433,-10.63406219
+20210105,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCgamesofchance,Games of Chance,Web,6,43.73709718,-21.86854859,-4.697380757,-26.56592935
+20210106,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Mobile,7,70.16302497,-35.08151249,,-35.08151249
+20210101,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,DEFgamesofchance,Games of Chance,Web,8,60.40628552,2.114219993,-13.92124405,-11.80702406
+20210102,betsson8@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Mobile,9,25.4808028,-12.7404014,-7.959254272,-20.69965567
+20210103,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCgamesofchance,Games of Chance,Mobile,10,87.87725924,3.075704074,-19.80280388,-16.7270998
+20210104,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCsportsbook,Sportsbook,Mobile,11,20.91157019,0.731904957,-15.72151949,-14.98961454
+20210105,betsson@testbetssongroup.com,BrandABC,Italy,Active,DEFgamesofchance,Games of Chance,Web,12,44.39399907,1.553789967,-13.52665708,-11.97286711
+20210106,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCpoker,Poker,Mobile,13,62.99159133,2.204705697,,2.204705697
+20210101,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Web,14,25.79294657,-12.89647328,,-12.89647328
+20210102,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCsportsbook,Sportsbook,Mobile,15,10.82633752,-5.413168761,,-5.413168761
+20210103,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,DEFgamesofchance,Games of Chance,Mobile,16,61.81484428,2.16351955,-18.00728875,-15.8437692
+20210104,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCpoker,Poker,Mobile,34,96.38080017,3.373328006,-14.42831644,-11.05498844
+20210105,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCgamesofchance,Games of Chance,Web,35,41.04953176,1.436733612,-5.582684421,-4.145950809
+20210106,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Mobile,36,68.77097268,2.406984044,-15.15199921,-12.74501517
+20210101,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,DEFgamesofchance,Games of Chance,Web,1,88.61900613,3.101665214,,3.101665214
+20210102,betsson8@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Mobile,2,53.46517386,-26.73258693,-2.228110914,-28.96069784
+20210103,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Mobile,3,20.05234661,-10.0261733,-1.511189846,-11.53736315
+20210104,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCsportsbook,Sportsbook,Web,4,78.53443903,2.748705366,-4.332766446,-1.58406108
+20210105,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCpoker,Poker,Mobile,5,96.77433095,3.387101583,-4.829740739,-1.442639156
+20210106,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCgamesofchance,Games of Chance,Web,6,2.552712639,0.089344942,-7.598002574,-7.508657632
+20210101,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCpoker,Poker,Mobile,7,7.446741873,0.260635966,,0.260635966
+20210102,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCgamesofchance,Games of Chance,Mobile,8,21.14397087,-10.57198543,-10.14556485,-20.71755028
+20210103,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCsportsbook,Sportsbook,Web,9,60.64878623,2.122707518,-14.6636098,-12.54090228
+20210104,betsson@testbetssongroup.com,BrandABC,Italy,Active,DEFgamesofchance,Games of Chance,Mobile,10,36.29597615,1.270359165,-17.4770343,-16.20667513
+20210105,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCpoker,Poker,Web,11,15.04263083,0.526492079,-13.63285644,-13.10636437
+20210106,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Mobile,12,33.21160266,1.162406093,-4.684731623,-3.52232553
+20210101,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCsportsbook,Sportsbook,Web,1,59.49077742,-29.74538871,-10.47751527,-40.22290398
+20210102,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,DEFgamesofchance,Games of Chance,Mobile,2,14.95536387,-7.477681936,-14.09332704,-21.57100897
+20210103,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCpoker,Poker,Web,3,45.80031465,1.603011013,,1.603011013
+20210104,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCgamesofchance,Games of Chance,Mobile,4,36.22978487,-18.11489243,-11.97126317,-30.0861556
+20210105,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Mobile,5,71.94311253,2.518008939,-7.481443116,-4.963434177
+20210106,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,DEFgamesofchance,Games of Chance,Mobile,6,42.13306531,1.474657286,-15.11651718,-13.6418599
+20210101,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Web,7,5.287127724,-2.643563862,-3.774168577,-6.417732439
+20210102,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCgamesofchance,Games of Chance,Mobile,8,74.92909593,2.622518358,,2.622518358
+20210103,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCsportsbook,Sportsbook,Web,9,41.71354297,1.459974004,-19.34051584,-17.88054183
+20210104,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCpoker,Poker,Mobile,10,10.60996815,0.371348885,-4.21582278,-3.844473895
+20210105,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCgamesofchance,Games of Chance,Mobile,11,52.30930739,-26.1546537,-11.23940051,-37.3940542
+20210106,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Web,12,2.269479768,0.079431792,-1.984106093,-1.904674301
+20210101,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,DEFgamesofchance,Games of Chance,Mobile,13,69.16290079,2.420701528,-18.39767537,-15.97697384
+20210102,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Web,14,40.74772182,1.426170264,,1.426170264
+20210103,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCgamesofchance,Games of Chance,Mobile,15,57.05169353,1.996809274,-11.90566884,-9.90885957
+20210104,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCsportsbook,Sportsbook,Web,16,91.08342296,3.187919804,-14.95045188,-11.76253208
+20210105,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,DEFgamesofchance,Games of Chance,Mobile,11,60.26403961,2.109241386,-19.03892625,-16.92968487
+20210106,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCpoker,Poker,Web,12,58.95790211,2.063526574,-17.32438377,-15.2608572
+20210101,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCgamesofchance,Games of Chance,Mobile,13,21.72883771,0.76050932,-2.289099378,-1.528590059
+20210102,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,ABCsportsbook,Sportsbook,Web,22,46.2933075,1.620265762,-9.166858206,-7.546592443
+20210103,betsson8@testbetssongroup.com,BrandABC,Italy,Active,DEFgamesofchance,Games of Chance,Mobile,3,38.26565608,-19.13282804,-11.49669921,-30.62952725
+20210104,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCpoker,Poker,Web,34,59.16727525,2.070854634,,2.070854634
+20210105,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCgamesofchance,Games of Chance,Mobile,4,96.11733155,-48.05866577,-3.366921309,-51.42558708
+20210106,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Web,5,51.78104629,1.81233662,-4.742832853,-2.930496233
+20210101,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,DEFgamesofchance,Games of Chance,Mobile,73,45.59311722,1.595759103,-12.90730711,-11.31154801
+20210102,betsson8@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Web,74,18.23498062,0.638224322,-13.47397661,-12.83575228
+20210103,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCgamesofchance,Games of Chance,Mobile,75,95.31327414,-47.65663707,-6.493041244,-54.14967831
+20210104,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCsportsbook,Sportsbook,Web,76,41.84094138,1.464432948,-10.41151237,-8.947079422
+20210105,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,DEFgamesofchance,Games of Chance,Web,77,37.10287209,1.298600523,-13.80327669,-12.50467616
+20210106,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCpoker,Poker,Mobile,78,85.9227063,3.00729472,-18.87053206,-15.86323734
+20210101,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCgamesofchance,Games of Chance,Mobile,1,49.94867423,1.748203598,-14.49685762,-12.74865402
+20210102,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Web,34,99.06809602,3.467383361,,3.467383361
+20210103,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,DEFgamesofchance,Games of Chance,Mobile,35,88.64054598,-44.32027299,,-44.32027299
+20210104,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,ABCpoker,Poker,Web,36,81.97441007,2.869104353,,2.869104353
+20210105,betsson8@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Mobile,1,83.81056842,2.933369895,-8.171400207,-5.238030312
+20210106,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCsportsbook,Sportsbook,Mobile,2,61.98235507,2.169382427,-3.718828535,-1.549446108
+20210101,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,DEFgamesofchance,Games of Chance,Web,3,35.36504953,-17.68252476,,-17.68252476
+20210102,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCpoker,Poker,Mobile,4,93.92924518,-46.96462259,-1.363166439,-48.32778903
+20210103,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCgamesofchance,Games of Chance,Web,5,0.289506934,0.010132743,-10.76601202,-10.75587928
+20210104,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCsportsbook,Sportsbook,Mobile,6,21.93843824,0.767845338,,0.767845338
+20210105,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,DEFgamesofchance,Games of Chance,Web,7,57.52786604,2.013475311,-18.44206141,-16.4285861
+20210106,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,ABCpoker,Poker,Mobile,8,70.01303848,2.450456347,-10.50909646,-8.058640114
+20210101,betsson4@testbetssongroup.com,BrandDEF,Denmark,Active,ABCgamesofchance,Games of Chance,Web,9,26.61907714,0.9316677,-1.233062095,-0.301394395
+20210102,betsson5@testbetssongroup.com,BrandGHI,Switzerland,Active,ABCsportsbook,Sportsbook,Mobile,10,36.41864936,1.274652728,-5.479110519,-4.204457791
+20210103,betsson6@testbetssongroup.com,BrandGHI,Switzerland,Active,DEFgamesofchance,Games of Chance,Mobile,11,7.387852636,0.258574842,-9.723993084,-9.465418242
+20210104,betsson7@testbetssongroup.com,BrandABC,Sweden,Closed,ABCpoker,Poker,Mobile,12,81.35375305,2.847381357,-13.55481505,-10.70743369
+20210105,betsson8@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Web,1,17.98334303,-8.991671515,-13.74413981,-22.73581133
+20210106,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCpoker,Poker,Mobile,2,79.15627821,2.770469737,-4.830060166,-2.059590429
+20210101,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCpoker,Poker,Web,34,35.08395317,1.227938361,-12.28791725,-11.05997889
+20210102,betsson@testbetssongroup.com,BrandABC,Italy,Active,ABCgamesofchance,Games of Chance,Web,35,41.89606684,1.466362339,-4.113824797,-2.647462457
+20210103,betsson2@testbetssongroup.com,BrandDEF,Sweden,Active,ABCsportsbook,Sportsbook,Mobile,36,41.69885857,1.45946005,-19.68972883,-18.23026878
+20210104,betsson3@testbetssongroup.com,BrandABC,Denmark,Closed,DEFgamesofchance,Games of Chance,Mobile,1,44.16020397,-22.08010198,-18.87191865,-40.95202063

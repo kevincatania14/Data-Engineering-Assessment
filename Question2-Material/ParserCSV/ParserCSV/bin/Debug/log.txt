@@ -1,0 +1,65 @@
+2022-01-29 21:20:00.7612|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_1.csv 
+2022-01-29 21:20:01.3128|INFO|Finished reading file
+2022-01-29 21:20:01.5246|INFO|Total Lines: 101; Moved file to PROCESSED folder
+2022-01-29 21:20:01.5246|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_2.csv 
+2022-01-29 21:20:03.2811|INFO|Finished reading file
+2022-01-29 21:20:03.3415|INFO|Total Lines: 746; Moved file to PROCESSED folder
+2022-01-29 21:20:03.3415|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_3.csv 
+2022-01-29 21:20:03.8375|INFO|Finished reading file
+2022-01-29 21:20:03.8552|INFO|Total Lines: 156; Moved file to PROCESSED folder
+2022-01-29 21:20:03.8552|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_4.csv 
+2022-01-29 21:20:03.8552|INFO|Finished reading file
+2022-01-29 21:20:03.8879|INFO|Total Lines: 1; Moved file to ERROR folder
+2022-01-29 21:25:26.1541|INFO|CSV file directory is empty
+2022-01-29 21:26:00.0676|INFO|CSV file directory is empty
+2022-01-29 21:29:01.8655|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_1.csv 
+2022-01-29 21:29:02.2961|INFO|Finished reading file
+2022-01-29 21:29:02.4085|INFO|Total Lines: 101; Moved file to PROCESSED folder
+2022-01-29 21:29:02.4085|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_2.csv 
+2022-01-29 21:29:04.3104|INFO|Finished reading file
+2022-01-29 21:29:04.3267|INFO|Total Lines: 746; Moved file to PROCESSED folder
+2022-01-29 21:29:04.3267|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_3.csv 
+2022-01-29 21:29:04.7958|INFO|Finished reading file
+2022-01-29 21:29:04.8144|INFO|Total Lines: 156; Moved file to PROCESSED folder
+2022-01-29 21:29:04.8144|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_4.csv 
+2022-01-29 21:29:04.8225|INFO|Finished reading file
+2022-01-29 21:29:04.8477|INFO|Total Lines: 1; Moved file to ERROR folder
+2022-01-29 21:31:40.1163|INFO|CSV file directory is empty
+2022-01-29 21:32:10.7337|INFO|CSV file directory is empty
+2022-01-29 21:36:26.0679|WARN|No CSV files found in directory
+2022-01-29 21:43:41.3643|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_1.csv 
+2022-01-29 21:43:49.7960|INFO|Finished reading file
+2022-01-29 21:43:50.0137|INFO|Total Lines: 101; Moved file to PROCESSED folder
+2022-01-29 21:43:50.0137|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_2.csv 
+2022-01-29 21:43:52.2608|INFO|Finished reading file
+2022-01-29 21:43:52.3047|INFO|Total Lines: 746; Moved file to PROCESSED folder
+2022-01-29 21:43:52.3047|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_3.csv 
+2022-01-29 21:43:52.8595|INFO|Finished reading file
+2022-01-29 21:43:52.9091|INFO|Total Lines: 156; Moved file to PROCESSED folder
+2022-01-29 21:43:52.9091|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_4.csv 
+2022-01-29 21:43:52.9091|INFO|Finished reading file
+2022-01-29 21:43:53.0353|INFO|Total Lines: 1; Moved file to ERROR folder
+2022-01-29 21:44:09.0488|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_1.csv 
+2022-01-29 21:44:09.5107|INFO|Finished reading file
+2022-01-29 21:44:09.6308|INFO|Total Lines: 101; Moved file to PROCESSED folder
+2022-01-29 21:44:09.6319|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_2.csv 
+2022-01-29 21:44:11.4219|INFO|Finished reading file
+2022-01-29 21:44:11.4515|INFO|Total Lines: 746; Moved file to PROCESSED folder
+2022-01-29 21:44:11.4515|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_3.csv 
+2022-01-29 21:44:11.8480|INFO|Finished reading file
+2022-01-29 21:44:11.8734|INFO|Total Lines: 156; Moved file to PROCESSED folder
+2022-01-29 21:44:11.8734|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_4.csv 
+2022-01-29 21:44:11.8734|INFO|Finished reading file
+2022-01-29 21:44:11.9765|INFO|Total Lines: 1; Moved file to ERROR folder
+2022-01-30 14:16:13.7249|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_1.csv 
+2022-01-30 14:16:14.5134|INFO|Finished reading file
+2022-01-30 14:16:14.6384|INFO|Total Lines: 101; Moved file to PROCESSED folder
+2022-01-30 14:16:14.6384|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_2.csv 
+2022-01-30 14:16:17.6996|INFO|Finished reading file
+2022-01-30 14:16:17.7299|INFO|Total Lines: 746; Moved file to PROCESSED folder
+2022-01-30 14:16:17.7299|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_3.csv 
+2022-01-30 14:16:18.2433|INFO|Finished reading file
+2022-01-30 14:16:18.2710|INFO|Total Lines: 156; Moved file to PROCESSED folder
+2022-01-30 14:16:18.2710|INFO|Reading file: C:\DataEngineeringAssessment\Question2-Material\TestFiles\sales_records_4.csv 
+2022-01-30 14:16:18.2710|INFO|Finished reading file
+2022-01-30 14:16:18.2956|INFO|Total Lines: 1; Moved file to ERROR folder

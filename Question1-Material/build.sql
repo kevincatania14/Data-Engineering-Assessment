@@ -1,0 +1,257 @@
+--1
+
+use assessment_db;
+go
+
+delete from dbo.[Transaction];
+delete from dbo.AccountStatus;
+delete from dbo.StatusType;
+delete from dbo.PaymentStatus;
+delete from dbo.Product;
+delete from dbo.Provider;
+delete from dbo.Customer;
+delete from dbo.PaymentMethod;
+delete from dbo.TransactionType;
+delete from dbo.Device;
+delete from dbo.Country;
+delete from dbo.Brand;
+go
+
+create schema tmp;
+go
+
+/************************ Temporary tables to store data from source ************************/
+create table tmp.DepositTransactions (CalendarDate nvarchar(255) null,
+	CustomerEmail nvarchar (255) null,
+	CustomerBrandName nvarchar (255) null,
+	CustomerCountry nvarchar (255) null,
+	CustomerAccountStatus nvarchar (255) null,
+	PaymentMethodName nvarchar (255) null,
+	PaymentMethodType nvarchar (255) null,
+	PaymentStatusName nvarchar (255) null,
+	PaymentStatusDescription nvarchar (255) null,
+	Amount_EUR nvarchar (255) null);
+go
+
+create table tmp.GamePlayTransactions(CalendarDate nvarchar(255) null,
+	CustomerEmail nvarchar(255) null,
+	CustomerBrand nvarchar(255) null,
+	CustomerCountry nvarchar(255) null,
+	CustomerStatus nvarchar(255) null,
+	ProviderName nvarchar(255) null,
+	ProviderProductName nvarchar(255) null,
+	DeviceName nvarchar(255) null,
+	Rounds nvarchar(255) null,
+	Turnover_EUR nvarchar(255) null,
+	GameWin_EUR nvarchar(255) null,
+	BonusCost nvarchar(255) null,
+	TotalAccountingRevenue_EUR nvarchar(255) null);
+go
+
+/************************ Retrieving data from source ************************/
+
+--delete from tmp.DepositTransactions;
+bulk insert tmp.DepositTransactions
+from 'C:\DataEngineeringAssessment\Question1-Material\DepositTransactions.csv'
+with (firstrow = 2,
+	fieldterminator = ',',
+    rowterminator = '\n',
+    tablock);
+go
+
+--delete from tmp.GamePlayTransactions;
+bulk insert tmp.GamePlayTransactions
+from 'C:\DataEngineeringAssessment\Question1-Material\GamePlayTransactions.csv'
+with (firstrow = 2,
+    fieldterminator = ',',
+    rowterminator = '\n',
+    tablock);
+go
+	
+/************************ Inserting data to normalised DB ************************/
+/* Note: Each statement should be run individually in chronological order */
+
+--select * from dbo.Brand;
+insert into dbo.Brand (Name)
+select distinct CustomerBrand
+from tmp.GamePlayTransactions;
+go
+
+--select * from dbo.Country;
+insert into dbo.Country (Name)
+select CustomerCountry
+from tmp.GamePlayTransactions
+union
+select CustomerCountry
+from tmp.DepositTransactions;
+go
+
+--select * from dbo.Device;
+insert into dbo.Device (Name)
+select distinct DeviceName
+from tmp.GamePlayTransactions;
+go
+
+--select * from dbo.TransactionType;
+insert into dbo.TransactionType (Name)
+values ('Deposit');
+insert into dbo.TransactionType (Name)
+values ('Game Play');
+go
+
+--select * from dbo.PaymentMethod;
+insert into dbo.PaymentMethod (Name, Description)
+select distinct PaymentMethodName, PaymentMethodType
+from tmp.DepositTransactions;
+go
+
+--customer
+create table tmp.Customer (CustomerEmail nvarchar(255) null,
+	CustomerBrandName nvarchar(255) null,
+	CustomerCountry nvarchar(255) null);
+go
+
+--select * from tmp.Customer
+insert into tmp.Customer
+select CustomerEmail, CustomerBrandName, CustomerCountry
+from tmp.DepositTransactions
+union
+select CustomerEmail, CustomerBrand, CustomerCountry
+from tmp.GamePlayTransactions;
+go
+
+--select * from tmp.Customer
+delete from tmp.Customer
+where CustomerEmail like '%.om%';
+go
+
+--select * from dbo.Customer;
+insert into dbo.Customer (Email, BrandId, CountryId)
+select itc.CustomerEmail, b.id, c.Id
+from tmp.Customer itc
+join dbo.Brand b
+on itc.CustomerBrandName = b.Name
+join dbo.Country c
+on itc.CustomerCountry = c.Name;
+go
+
+--select * from dbo.Provider
+insert into dbo.Provider (Name)
+select distinct ProviderName
+from tmp.GamePlayTransactions;
+go
+
+--product
+create table tmp.Product
+	(ProviderProductName nvarchar(255) null);
+go
+
+--select * from tmp.Product;
+insert into tmp.Product
+select distinct ProviderProductName
+from tmp.GamePlayTransactions
+where ProviderProductName is not null;
+go
+
+--select * from dbo.Product;
+insert into dbo.Product (Name, ProviderId)
+select distinct itp.ProviderProductName, 
+	(select Id 
+	from dbo.Provider
+	where Name = igpt.ProviderName)
+from tmp.Product itp
+join tmp.GamePlayTransactions igpt
+on itp.ProviderProductName = igpt.ProviderProductName;
+go
+
+--select * from dbo.Product;
+delete top(1)
+from dbo.Product
+where Name = 'Games of Chance';
+go
+
+--select * from dbo.PaymentStatus;
+insert into dbo.PaymentStatus (Name, Description)
+select distinct PaymentStatusName, PaymentStatusDescription
+from tmp.DepositTransactions;
+go
+
+--select * from dbo.StatusType;
+insert into dbo.StatusType (Name)
+select CustomerAccountStatus
+from tmp.DepositTransactions
+union 
+select CustomerStatus
+from tmp.GamePlayTransactions;
+go
+
+--AccountStatus
+create table tmp.AccountStatus 
+	(CustomerEmail nvarchar(255) null,
+	CustomerAccountStatus nvarchar(255) null);
+go
+
+--select * from tmp.AccountStatus;
+insert into tmp.AccountStatus
+select distinct replace(CustomerEmail, '.om', '.com'), CustomerAccountStatus
+from tmp.DepositTransactions
+union
+select distinct replace(CustomerEmail, '.om', '.com'), CustomerAccountStatus
+from tmp.DepositTransactions;
+go
+
+--select * from dbo.AccountStatus;
+insert into dbo.AccountStatus (CustomerId, StatusId)
+select c.Id, st.id
+from tmp.AccountStatus itas
+join dbo.Customer c
+on itas.CustomerEmail = c.Email
+join dbo.StatusType st
+on itas.CustomerAccountStatus = st.Name;
+go
+
+--select * from dbo.[Transaction] where TransactionTypeId = (select Id from dbo.TransactionType where Name = 'Deposit');
+insert into dbo.[Transaction] (Date, Amount, CustomerId, PaymentMethodId, PaymentStatusId, TransactionTypeId)
+select ids.CalendarDate,
+	ids.Amount_EUR,
+	(select c.Id from dbo.Customer c where replace(ids.CustomerEmail, '.om', '.com') = c.Email) CustomerId,
+	(select pm.Id from dbo.PaymentMethod pm where ids.PaymentMethodName = pm.Name) PaymentMethodId,
+	(select ps.Id from dbo.PaymentStatus ps where ids.PaymentStatusName = ps.Name) PaymentStatusId,
+	(select Id from dbo.TransactionType where Name = 'Deposit') TransactionTypeId
+from tmp.DepositTransactions ids;
+go
+
+--select * from dbo.[Transaction] where TransactionTypeId = (select Id from dbo.TransactionType where Name = 'Game Play');
+insert into dbo.[Transaction] (Date, Rounds, TurnoverEUR, GameWinEUR, BonusCost, TotalAccountingRevenue, CustomerId, TransactionTypeId, DeviceId, ProductId)
+select igpt.CalendarDate,
+	igpt.Rounds,
+	igpt.Turnover_EUR,
+	igpt.GameWin_EUR,
+	BonusCost,
+	TotalAccountingRevenue_EUR,
+	(select c.Id from Customer c where replace(igpt.CustomerEmail, '.om', '.com') = c.Email) CustomerId,
+	(select Id from TransactionType where Name = 'Game Play') TransactionTypeId,
+	(select d.Id from Device d where igpt.DeviceName = d.Name) DeviceId,	
+	(select p.Id from Product p where igpt.ProviderProductName = p.Name) ProductId
+from tmp.GamePlayTransactions igpt;
+go
+
+--select * from dbo.[Transaction];
+update dbo.[Transaction]
+set ProductId = (select Id 
+	from dbo.Product 
+	where Name = 'Games of Chance')
+where ProductId is null
+and TransactionTypeId = (select Id from dbo.TransactionType where Name = 'Game Play');
+go
+
+/************************ Cleaning temporary data from normalised DB ************************/
+/* Note: The following statements are optional */
+
+drop table tmp.DepositTransactions;
+drop table tmp.GamePlayTransactions;
+drop table tmp.AccountStatus;
+drop table tmp.Customer;
+drop table tmp.Product;
+drop schema tmp;
+go

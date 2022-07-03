@@ -1,0 +1,13 @@
+Instructions:
+
+1. Download DB from: https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks/AdventureWorks2019.bak
+Place DB in: C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup
+Follow MS Instructions: https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+
+2. From MS CMD run: pip install pyodbc
+
+3. Run adventure_works.py (Additional inline comments available in script)
+SQL Statements: C:\DataEngineeringAssessment\Question 3-Material\supporting_material\statements.py
+
+Note: 
+************ In adventure-works.py update CONST_DB_SERVER = 'your-db-server' ************

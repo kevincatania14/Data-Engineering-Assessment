@@ -1,0 +1,124 @@
+#Fact.Sales > Sales.SalesOrderHeader, Sales.SalesOrderDetail
+FACT_SALES_CREATE = '''
+create table Fact.Sales (SalesOrderID int not null,
+	SalesOrderDetailID int not null,
+	OrderQty smallint null,
+	ProductID int null,
+	SpecialOfferID int null,
+	UnitPrice money null,
+	UnitPriceDiscount money null,
+	LineTotal numeric(38, 6) null,
+	OrderDate datetime null,
+	DueDate datetime null,
+	ShipDate datetime null,
+	OnlineOrderFlag bit null,
+	SalesOrderNumber nvarchar(25) null,
+	PurchaseOrderNumber nvarchar(25) null,
+	CustomerID nvarchar(15) null,
+	SalesPersonID int null,
+	TerritoryID int null,
+	BillToAddressID int null,
+	ShipToAddressID int null,
+	ShipMethodID int null,
+	SubTotal money null,
+	TaxAmt money null,
+	Freight money null,
+	TotalDue money null,
+	primary key(SalesOrderID, SalesOrderDetailID));
+'''
+
+FACT_SALES_INSERT = '''
+insert into Fact.Sales
+select sod.SalesOrderID,
+    sod.SalesOrderDetailID,
+    sod.OrderQty,
+    sod.ProductID,
+    sod.SpecialOfferID,
+    sod.UnitPrice,
+    sod.UnitPriceDiscount,
+    sod.LineTotal,	
+    soh.OrderDate,
+    soh.DueDate,
+    soh.ShipDate,
+    soh.OnlineOrderFlag,
+    soh.SalesOrderNumber,
+    soh.PurchaseOrderNumber,
+    soh.CustomerID,
+    soh.SalesPersonID,
+    soh.TerritoryID,
+    soh.BillToAddressID,
+    soh.ShipToAddressID,
+    soh.ShipMethodID,
+    soh.SubTotal,
+    soh.TaxAmt,
+    soh.Freight,
+    soh.TotalDue
+from Sales.SalesOrderDetail sod
+join Sales.SalesOrderHeader soh
+on sod.SalesOrderID = soh.SalesOrderID;
+'''
+
+Dim.Customer > Sales.Customer, Person Schema
+DIM_CUSTOMER_CREATE = '''
+create table Dim.Customer (Id uniqueidentifier default newsequentialid(),
+	CustomerID int not null,
+	PersonType nchar(2) not null,
+	NameStyle dbo.NameStyle not null,
+	Title nchar(10) null,
+	FirstName dbo.Name not null,
+	MiddleName dbo.Name null,
+	LastName dbo.Name not null,
+	Suffix nvarchar(10) null,
+	EmailPromotion int not null,
+	PhoneNumber dbo.Phone not null,
+	PhoneNumberType dbo.Name not null,
+	EmailAddress nvarchar(50) null,
+	AddressLine1 nvarchar(60) not null,
+	AddressLine2 nvarchar(60) null,
+	City nvarchar(30) not null,
+	PostalCode nvarchar(15) not null,
+	StateProvinceCode nchar(3) not null,
+	CountryRegionCode nvarchar(3) not null,
+	IsOnlyStateProvinceFlag dbo.Flag not null,
+	StateProvinceName dbo.Name not null,
+	AddressType dbo.Name not null,
+	primary key(Id));
+'''
+
+DIM_CUSTOMER_INSERT = '''
+insert into Dim.Customer (CustomerID, 
+	PersonType, NameStyle, Title, FirstName, MiddleName, LastName, Suffix, EmailPromotion,
+	PhoneNumber,
+	PhoneNumberType,
+	EmailAddress,
+	AddressLine1, AddressLine2, City, PostalCode,
+	StateProvinceCode, CountryRegionCode, IsOnlyStateProvinceFlag, StateProvinceName,
+	AddressType)
+select distinct c.CustomerID,
+	p.PersonType, p.NameStyle, p.Title, p.FirstName, p.MiddleName, p.LastName, p.Suffix, p.EmailPromotion,
+	pp.PhoneNumber,
+	pnt.Name PhoneNumberType,
+	ea.EmailAddress,
+	a.AddressLine1, a.AddressLine2, a.City, a.PostalCode,
+	sp.StateProvinceCode, sp.CountryRegionCode, sp.IsOnlyStateProvinceFlag, sp.Name StateProvinceName,
+	at.Name AddressType
+from Sales.Customer c
+join Person.Person p
+on c.PersonID = p.BusinessEntityID
+join Person.PersonPhone pp
+on p.BusinessEntityID = pp.BusinessEntityID
+join Person.PhoneNumberType pnt
+on pp.PhoneNumberTypeID = pnt.PhoneNumberTypeID
+join Person.EmailAddress ea
+on p.BusinessEntityID = ea.BusinessEntityID
+join Person.BusinessEntity be
+on p.BusinessEntityID = be.BusinessEntityID
+join Person.BusinessEntityAddress bea
+on be.BusinessEntityID = bea.BusinessEntityID
+join Person.Address a
+on bea.AddressID = a.AddressID
+join Person.StateProvince sp
+on a.StateProvinceID = sp.StateProvinceID
+join Person.AddressType at
+on bea.AddressTypeID = at.AddressTypeID;
+'''

@@ -1,0 +1,65 @@
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.AssemblyReference.cache
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.SuggestedBindingRedirects.cache
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.CoreCompileInputs.cache
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\ParserCSV.exe.config
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\ParserCSV.exe
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\ParserCSV.pdb
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Buffers.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Memory.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Numerics.Vectors.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Buffers.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Memory.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Numerics.Vectors.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.CopyComplete
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.exe
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.pdb
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.AccessControl.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Permissions.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Principal.Windows.dll
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.AccessControl.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Permissions.xml
+C:\Data Engineering Assessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Principal.Windows.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\ParserCSV.exe.config
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\ParserCSV.exe
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\ParserCSV.pdb
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Buffers.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Memory.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Numerics.Vectors.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.AccessControl.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Permissions.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Principal.Windows.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Buffers.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Memory.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Numerics.Vectors.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.AccessControl.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Permissions.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Security.Principal.Windows.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.SuggestedBindingRedirects.cache
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.CoreCompileInputs.cache
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.CopyComplete
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.exe
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.pdb
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\NLog.dll
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\NLog.xml
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\nlog.config
+C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\obj\Debug\ParserCSV.csproj.AssemblyReference.cache

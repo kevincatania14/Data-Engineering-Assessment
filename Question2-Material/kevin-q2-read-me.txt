@@ -1,0 +1,15 @@
+Instructions:
+
+1. Run db-files.sql
+************ Note: Check script before running (if exists ... drop) ************
+
+2. Ensure sales_records_1,...,4.csv files are not in ERROR/PROCESSED folder
+CSV files should be in the following directory: C:\DataEngineeringAssessment\Question2-Material\TestFiles
+
+3. Run ParserCSV
+Directory: C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV.sln
+Log is available at: C:\DataEngineeringAssessment\Question2-Material\ParserCSV\ParserCSV\bin\Debug\log.txt
+
+Note: 
+************ In App.config update Data Source=your-db-server; for connection string named DB ************
+Additional inline comments available throughout ParserCSV

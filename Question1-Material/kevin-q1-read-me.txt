@@ -1,0 +1,9 @@
+Instructions:
+
+1. Import assessment_db.bak (This is the normalised database)
+Note: Interpretation of source data was subjective (Business logic would be required to optimise - if applicable)
+Normalised ERD: normalised-db-erd.png
+
+2. Run build.sql (Additional inline comments available in script)
+
+3. Run reporting.sql (Additional inline comments available in script)

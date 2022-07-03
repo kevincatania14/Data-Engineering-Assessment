@@ -1,0 +1,24 @@
+Prerequisites:
+
+- MS Windows
+- MS SQL Server
+- MS SSMS
+- MS VS
+- Python
+
+************
+
+Instructions:
+
+1. Extract DataEngineeringAssessment folder to C:\
+
+2. Q1 source instructions available at C:\DataEngineeringAssessment\Question1-Material\kevin-q1-read-me.txt
+
+3. Q2 source instructions available at C:\DataEngineeringAssessment\Question2-Material\kevin-q2-read-me.txt
+
+4. Q3 source instructions available at C:\DataEngineeringAssessment\Question2-Material\kevin-q3-read-me.txt
+
+************
+
+Note: For clarification or setup questions please feel free to contact me
+If there are specific shortcomings related to business logic or optimisation, I am willing to discuss and provide an update
